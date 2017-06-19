@@ -9,3 +9,6 @@ For a simple test purpose i have added /testSendEmail to send out email. You can
 Note : Gmail will not allow using its smtp from less secured apps. You might need to switch off that feature while testing to send email. 
 In gmail, my account goto Sign-in & Security --> Connected apps & sites --> Allow less secure apps: turn it on
 
+
+
+[![Build Status](https://travis-ci.org/abburi03/spring-boot-email.svg?branch=master)](https://travis-ci.org/abburi03/spring-boot-email)
