@@ -24,7 +24,7 @@ public class EmailService {
     @Autowired
     private JavaMailSender javaMailSender;
 
-    @Value("${email.from.addres}")
+    @Value("${email.from.address}")
     private String fromAddress;
 
     public void sendMailMultipart(String toEmail, String subject, String message, File file) throws MessagingException {
